@@ -102,16 +102,6 @@ The React app will start on `http://localhost:5173`.
 | DELETE | `/api/tasks/:id`     | Delete a task                                    |
 | GET    | `/api/tasks/stats`   | Get task statistics (Total, Pending, Completed, Overdue) |
 
-## Screenshots
-
-> *Add your screenshots here before submission.*
-> 
-> - **Dashboard/Counts Screenshot**
->   ![Dashboard Placeholder](#)
-> - **Task List Screenshot**
->   ![Task List Placeholder](#)
-> - **Add/Edit Form Screenshot**
->   ![Form Placeholder](#)
 
 ## AI Usage
 
