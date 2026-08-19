@@ -2,6 +2,16 @@
 
 A complete MERN stack application built to manage daily internship and study tasks efficiently. This application features a clean, responsive UI with smooth animations, advanced filtering, and backend data validation.
 
+## Screenshots
+
+| 📊 Dashboard & Stats | 📋 Kanban Task List |
+| --- | --- |
+| ![Dashboard](./screenshots/dashboard%28t1%29.jpeg) | ![Task List](./screenshots/tasklist%28t1%29.png) |
+
+| 📝 Add / Edit Task Form | 🌐 Full Application View |
+| --- | --- |
+| ![Add Form](./screenshots/add%28t1%29.jpeg) | ![Full View](./screenshots/Screenshot_14-5-2026_212414_localhost.jpeg) |
+
 ## Features
 
 - **Interactive Kanban Board**: Visual 3-column drag-and-drop style layout (Pending, In Progress, Completed) to seamlessly track task stages.
@@ -40,10 +50,12 @@ student-task-tracker/
 │   ├── middleware/         # Custom Express middlewares (Error Handling)
 │   ├── models/             # Mongoose schemas (Task Model)
 │   ├── routes/             # API route definitions
+│   ├── seed.js             # Seed script for sample tasks
 │   ├── server.js           # Express application entry point
 │   ├── package.json        
 │   └── .env.example        
 │
+├── screenshots/            # Application screenshots
 ├── README.md               
 └── .gitignore              
 ```
@@ -82,6 +94,11 @@ npm run dev
 ```
 The server will start on `http://localhost:5000`.
 
+To seed 10 sample tasks into your database:
+```bash
+npm run seed
+```
+
 ### 3. Frontend Setup
 Open a new terminal window:
 ```bash
@@ -101,7 +118,6 @@ The React app will start on `http://localhost:5173`.
 | PUT    | `/api/tasks/:id`     | Update an existing task                          |
 | DELETE | `/api/tasks/:id`     | Delete a task                                    |
 | GET    | `/api/tasks/stats`   | Get task statistics (Total, Pending, Completed, Overdue) |
-
 
 ## AI Usage
 
